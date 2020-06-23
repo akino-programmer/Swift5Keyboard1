@@ -10,11 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var logoImageView: UIImageView!
+    
+    @IBOutlet weak var userNameTextField: UITextField!
+    
+    @IBOutlet weak var passWordTextField: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func login(_ sender: Any) {
+        
+        
+        
+    }
+    
 }
 
